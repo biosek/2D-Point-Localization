@@ -1,0 +1,5 @@
+﻿/** @page page2 Použití
+### ADS2-LokalizaceBodu-zapoctak.exe -inV "cesta k souboru s grafem" -inB "cesta k souboru s body" -out "cesta k souboru pro výstup"<br>
+
+Všechny parametry jsou volitelné. Pokud nějaký vynecháte bude nahrazen vstupem resp. výstupem z resp. do konzole.
+**/

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Biosek/QtProjects/ADS2-LokalizaceBodu-zapoctak/localization.h
+iostream
+-
+vector
+-
+struktury.h
+C:/Users/Biosek/QtProjects/ADS2-LokalizaceBodu-zapoctak/struktury.h
+pavl.h
+C:/Users/Biosek/QtProjects/ADS2-LokalizaceBodu-zapoctak/pavl.h
+
+C:/Users/Biosek/QtProjects/ADS2-LokalizaceBodu-zapoctak/main.cpp
+fstream
+-
+localization.h
+C:/Users/Biosek/QtProjects/ADS2-LokalizaceBodu-zapoctak/localization.h
+
+C:/Users/Biosek/QtProjects/ADS2-LokalizaceBodu-zapoctak/pavl.h
+struktury.h
+C:/Users/Biosek/QtProjects/ADS2-LokalizaceBodu-zapoctak/struktury.h
+stack
+-
+
+C:/Users/Biosek/QtProjects/ADS2-LokalizaceBodu-zapoctak/struktury.h
+vector
+-
+math.h
+-
+

@@ -1,0 +1,310 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<title>Lokalizace bodu v rovině: Dokumentace struktury Vrchol</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Lokalizace bodu v rovině
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generováno programem Doxygen 1.8.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Hledat');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Hlavní&#160;stránka</span></a></li>
+      <li><a href="pages.html"><span>Ostatní&#160;stránky</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Třídy</span></a></li>
+      <li><a href="files.html"><span>Soubory</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Hledat" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Seznam&#160;tříd</span></a></li>
+      <li><a href="classes.html"><span>Rejstřík&#160;tříd</span></a></li>
+      <li><a href="functions.html"><span>Seznam&#160;členů&#160;tříd</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('struct_vrchol.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Vše</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Třídy</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Soubory</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funkce</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Proměnné</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Definice typů</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Definice maker</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Stránky</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Veřejné metody</a> &#124;
+<a href="#pub-attribs">Veřejné atributy</a> &#124;
+<a href="struct_vrchol-members.html">Seznam všech členů</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentace struktury Vrchol</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Pomocná struktura pro tvorbu perzistentního AVL stromu. Uchovávající úsečku.  
+ <a href="struct_vrchol.html#details">...</a></p>
+
+<p><code>#include &lt;<a class="el" href="struktury_8h_source.html">struktury.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Veřejné metody</h2></td></tr>
+<tr class="memitem:a6356d5089119317b8cb479f300905229"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vrchol.html#a6356d5089119317b8cb479f300905229">Vrchol</a> ()</td></tr>
+<tr class="memdesc:a6356d5089119317b8cb479f300905229"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defaultní konstruktor Vrcholu.  <a href="#a6356d5089119317b8cb479f300905229"></a><br/></td></tr>
+<tr class="separator:a6356d5089119317b8cb479f300905229"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55fa6ea64d85c617e897c2c16ff48116"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vrchol.html#a55fa6ea64d85c617e897c2c16ff48116">Vrchol</a> (<a class="el" href="struct_usecka.html">Usecka</a> *u)</td></tr>
+<tr class="memdesc:a55fa6ea64d85c617e897c2c16ff48116"><td class="mdescLeft">&#160;</td><td class="mdescRight">Konstruktor Vrcholu.  <a href="#a55fa6ea64d85c617e897c2c16ff48116"></a><br/></td></tr>
+<tr class="separator:a55fa6ea64d85c617e897c2c16ff48116"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac70c712ebaf8b7fa6b529fa5d9e6bbeb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vrchol.html#ac70c712ebaf8b7fa6b529fa5d9e6bbeb">Vrchol</a> (const <a class="el" href="struct_vrchol.html">Vrchol</a> &amp;v)</td></tr>
+<tr class="memdesc:ac70c712ebaf8b7fa6b529fa5d9e6bbeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Kopírovací konstruktor Vrcholu.  <a href="#ac70c712ebaf8b7fa6b529fa5d9e6bbeb"></a><br/></td></tr>
+<tr class="separator:ac70c712ebaf8b7fa6b529fa5d9e6bbeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Veřejné atributy</h2></td></tr>
+<tr class="memitem:aca70354c1b85e06b432d9026babb789a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_usecka.html">Usecka</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vrchol.html#aca70354c1b85e06b432d9026babb789a">value</a></td></tr>
+<tr class="separator:aca70354c1b85e06b432d9026babb789a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a027621f99e3a0935ebe60436c6343ee5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vrchol.html#a027621f99e3a0935ebe60436c6343ee5">sign</a></td></tr>
+<tr class="separator:a027621f99e3a0935ebe60436c6343ee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b91208fb37b7b8844ab4f53649ee1c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_vrchol.html">Vrchol</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vrchol.html#a0b91208fb37b7b8844ab4f53649ee1c1">parent</a></td></tr>
+<tr class="separator:a0b91208fb37b7b8844ab4f53649ee1c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69de1b8298ac1734295e5430f1319fd5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_vrchol.html">Vrchol</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vrchol.html#a69de1b8298ac1734295e5430f1319fd5">right</a></td></tr>
+<tr class="separator:a69de1b8298ac1734295e5430f1319fd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b70dc0f220124d48a0d58bec2af7357"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_vrchol.html">Vrchol</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_vrchol.html#a2b70dc0f220124d48a0d58bec2af7357">left</a></td></tr>
+<tr class="separator:a2b70dc0f220124d48a0d58bec2af7357"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailní popis</h2>
+<div class="textblock"><p>Pomocná struktura pro tvorbu perzistentního AVL stromu. Uchovávající úsečku. </p>
+</div><h2 class="groupheader">Dokumentace konstruktoru a destruktoru</h2>
+<a class="anchor" id="a6356d5089119317b8cb479f300905229"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vrchol::Vrchol </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Defaultní konstruktor Vrcholu. </p>
+
+</div>
+</div>
+<a class="anchor" id="a55fa6ea64d85c617e897c2c16ff48116"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vrchol::Vrchol </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_usecka.html">Usecka</a> *&#160;</td>
+          <td class="paramname"><em>u</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Konstruktor Vrcholu. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">u</td><td><a class="el" href="struct_usecka.html" title="Struktura pro uložení jedné úsečky (hrany) jako vrchol do stromu.">Usecka</a> jako value. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ac70c712ebaf8b7fa6b529fa5d9e6bbeb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vrchol::Vrchol </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_vrchol.html">Vrchol</a> &amp;&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Kopírovací konstruktor Vrcholu. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">v</td><td><a class="el" href="struct_vrchol.html" title="Pomocná struktura pro tvorbu perzistentního AVL stromu. Uchovávající úsečku.">Vrchol</a> ke zkopírování. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentace k datovým členům</h2>
+<a class="anchor" id="a2b70dc0f220124d48a0d58bec2af7357"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_vrchol.html">Vrchol</a>* Vrchol::left</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0b91208fb37b7b8844ab4f53649ee1c1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_vrchol.html">Vrchol</a>* Vrchol::parent</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a69de1b8298ac1734295e5430f1319fd5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_vrchol.html">Vrchol</a>* Vrchol::right</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a027621f99e3a0935ebe60436c6343ee5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Vrchol::sign</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aca70354c1b85e06b432d9026babb789a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_usecka.html">Usecka</a> Vrchol::value</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>Dokumentace pro tuto strukturu (struct) byla generována z následujícího souboru:<ul>
+<li>C:/Users/Biosek/QtProjects/ADS2-LokalizaceBodu-zapoctak/<a class="el" href="struktury_8h_source.html">struktury.h</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="struct_vrchol.html">Vrchol</a></li>
+    <li class="footer">Generováno pá 24. srp 2012 14.35:21 pro projekt Lokalizace bodu v rovině programem
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
+  </ul>
+</div>
+</body>
+</html>

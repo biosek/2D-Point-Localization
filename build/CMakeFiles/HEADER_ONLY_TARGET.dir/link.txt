@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe cr libHEADER_ONLY_TARGET.a  
+C:\MinGW\bin\ranlib.exe libHEADER_ONLY_TARGET.a
